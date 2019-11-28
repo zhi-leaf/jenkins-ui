@@ -1,0 +1,21 @@
+{
+  "name": "jenkins-ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --devtool=inline-source-map --mode=development",
+    "build": "webpack --progress --hide-modules --mode=production"
+  },
+  "author": "zhi",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "4.17.15"
+  },
+  "devDependencies": {
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0",
+    "html-webpack-plugin": "3.2.0",
+    "clean-webpack-plugin": "3.0.0"
+  }
+}
