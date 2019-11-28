@@ -12,7 +12,7 @@ module.exports = {
         inline: true
     },
     output: {
-        path: path.resolve(__dirname, 'dist/webpack-demo'),
+        path: path.resolve(__dirname, 'dist/test'),
         filename: '[name].bundle.js',
         chunkFilename: '[name].bundle.js'
     },
