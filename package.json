@@ -9,7 +9,7 @@
   "author": "zhi",
   "license": "ISC",
   "dependencies": {
-    "lodash": "4.17.15"
+    "lodash": "4.17.19"
   },
   "devDependencies": {
     "webpack": "4.41.2",
